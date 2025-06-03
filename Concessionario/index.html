@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF1NV1BdTVevXU1X/11NV/9dTVf/XU1X711NV59dTVcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF1NV59dTVfvXU1XgF1NVyAAAAAAAAAAAF1NVzBdTVefXU1X/11NV2AAAAAAAAAAAAAAAAAAAAAAAAAAAF1NV59dTVfPXU1XIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF1NV0BdTVfvXU1XYAAAAAAAAAAAAAAAAF1NV1BdTVf/XU1XYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXU1Xn11NV+9dTVcQAAAAAAAAAABdTVevXU1Xr11NV+9dTVffXU1XcF1NVxAAAAAAAAAAAF1NVyBdTVePXU1X711NV89dTVfPXU1XcAAAAAAAAAAAXU1X/11NVyBdTVcgXU1Xz11NV/9dTVf/XU1Xn11NV79dTVf/XU1X/11NV59dTVcQXU1XYF1NV78AAAAAAAAAAF1NV/8AAAAAAAAAAF1NVxBdTVefXU1X/11NV/9dTVf/XU1X/11NV3AAAAAAAAAAAF1NV0BdTVe/AAAAAAAAAABdTVf/AAAAAAAAAAAAAAAAAAAAAF1NV4BdTVf/XU1X/11NVzAAAAAAAAAAAAAAAABdTVdAXU1XvwAAAAAAAAAAXU1X711NVzAAAAAAAAAAAAAAAABdTVcwXU1X/11NV+8AAAAAAAAAAAAAAAAAAAAAXU1XcF1NV68AAAAAAAAAAF1NV59dTVefAAAAAAAAAAAAAAAAAAAAAF1NV/9dTVe/AAAAAAAAAAAAAAAAAAAAAF1NV99dTVdgAAAAAAAAAABdTVcwXU1X/11NV0AAAAAAAAAAAAAAAABdTVffXU1XnwAAAAAAAAAAAAAAAF1NV4BdTVffXU1XEAAAAAAAAAAAAAAAAF1NV2BdTVfvXU1XUAAAAAAAAAAAXU1Xv11NV4AAAAAAAAAAAF1NV4BdTVfvXU1XMAAAAAAAAAAAAAAAAAAAAAAAAAAAXU1XYF1NV+9dTVe/XU1XYF1NV69dTVeAXU1XcF1NV99dTVffXU1XMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABdTVcgXU1XcF1NV79dTVe/XU1Xv11NV69dTVdgXU1XEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPgfAADjzwAAz/cAAN/zAACHwwAAsA0AALg9AAC8fQAAvn0AAJ57AADecwAA7mcAAPJPAAD8PwAA//8AAA==" rel="icon" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            line-height: 1;
+            overflow-x: hidden;
+        }
+
+        .header {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                to bottom,
+                #000,
+                #000 2px,
+                transparent 2px,
+                transparent 4px
+            );
+            opacity: 0.2;
+            pointer-events: none;
+        }
+
+        .title-container {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 10vw;
+        }
+
+        .header h1 {
+            font-size: clamp(4rem, 15vw, 12rem);
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 0.8;
+            animation: slideIn 1s ease-out;
+            mix-blend-mode: difference;
+        }
+
+        .header img {
+            position: absolute;
+            right: -10%;
+            height: 90%;
+            width: auto;
+            object-fit: contain;
+            filter: contrast(1.2) brightness(1.2) grayscale(100%);
+            animation: fadeIn 2s ease-out;
+            mix-blend-mode: screen;
+        }
+
+        .cars-section {
+            min-height: 100vh;
+            padding: 10vh 5vw;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            position: relative;
+            background: #0a0a0a;
+        }
+
+        .car-card {
+            position: relative;
+            padding: 2rem;
+            background: #000;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .car-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: translateX(-100%);
+            transition: transform 0.5s ease;
+        }
+
+        .car-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .car-card:hover::before {
+            transform: translateX(100%);
+        }
+
+        .car-card h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+
+        .car-card p {
+            font-size: 1rem;
+            opacity: 0.7;
+            margin: 1rem 0;
+        }
+
+        .specs {
+            margin-top: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        .spec-item {
+            font-size: 0.9rem;
+            opacity: 0.6;
+        }
+
+        .price {
+            position: absolute;
+            bottom: 2rem;
+            right: 2rem;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateX(10%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .scroll-text {
+            position: fixed;
+            right: 2rem;
+            top: 50%;
+            transform: rotate(90deg) translateX(50%);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5rem;
+            opacity: 0.3;
+            mix-blend-mode: difference;
+        }
+
+        @media screen and (max-width: 768px) {
+            .header img {
+                opacity: 0.5;
+                right: -30%;
+            }
+
+            .title-container {
+                padding-left: 5vw;
+            }
+
+            .cars-section {
+                padding: 5vh 2vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="title-container">
+            <h1>PURE<br>POWER</h1>
+        </div>
+        <img src="mercedes_nera.png" alt="Luxury Car">
+    </div>
+
+    <div class="scroll-text">Scroll for collection</div>
+
+    <div class="cars-section">
+        <div class="car-card">
+            <h2>GT BLACK</h2>
+            <p>Raw performance. Pure engineering.</p>
+            <div class="specs">
+                <div class="spec-item">0-100 KM/H: 3.2s</div>
+                <div class="spec-item">POWER: 585 HP</div>
+                <div class="spec-item">TOP: 320 KM/H</div>
+                <div class="spec-item">V8 BITURBO</div>
+            </div>
+            <div class="price">€189K</div>
+        </div>
+
+        <div class="car-card">
+            <h2>911 GT3</h2>
+            <p>Track heritage. Street legal.</p>
+            <div class="specs">
+                <div class="spec-item">0-100 KM/H: 3.4s</div>
+                <div class="spec-item">POWER: 510 HP</div>
+                <div class="spec-item">TOP: 318 KM/H</div>
+                <div class="spec-item">FLAT-SIX</div>
+            </div>
+            <div class="price">€209K</div>
+        </div>
+
+        <div class="car-card">
+            <h2>E-GT RS</h2>
+            <p>Silent force. Electric future.</p>
+            <div class="specs">
+                <div class="spec-item">0-100 KM/H: 3.3s</div>
+                <div class="spec-item">POWER: 646 HP</div>
+                <div class="spec-item">RANGE: 472 KM</div>
+                <div class="spec-item">ELECTRIC</div>
+            </div>
+            <div class="price">€185K</div>
+        </div>
+    </div>
+</body>
+</html>

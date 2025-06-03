@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanco Studio | Creative Development | Designing Website</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Blancostudio | Creative Development">
+    <meta name="description" content="Blanco Studio is a creative digital studio focused on design, development, and innovation to build modern and impactful experiences. Unique Design.">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://blancostudio.dev/">
+    <meta property="og:title" content="Blanco Studio | Creative Development">
+    <meta property="og:description" content="We design and build modern digital experiences that combine creativity and innovation.">
+    <meta property="og:image" content="https://blancostudio.dev/cover.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://blancostudio.dev/">
+    <meta name="twitter:title" content="Blanco Studio | Creative Development">
+    <meta name="twitter:description" content="We design and build modern digital experiences that combine creativity and innovation.">
+    <meta name="twitter:image" content="https://blancostudio.dev/cover.jpg">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-32x32.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, sans-serif;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+        }
+
+        body::-webkit-scrollbar {
+            display: none; /* For Chrome, Safari, and Edge */
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            line-height: 1;
+            overflow-x: hidden;
+            cursor: none;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            padding: 40px 0;
+            background: linear-gradient(to bottom, #000, transparent);
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 48px;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 1;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero-content {
+            margin-top: -80px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero span {
+            display: block;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            margin-bottom: 32px;
+            color: #666;
+        }
+
+        .hero h1 {
+            font-size: clamp(40px, 12vw, 180px);
+            line-height: 0.9;
+            margin-bottom: 48px;
+            font-weight: 600;
+            background: linear-gradient(to right, #fff 50%, #333);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+
+        .hero p {
+            font-size: 22px;
+            max-width: 600px;
+            line-height: 1.6;
+            color: #888;
+            margin-bottom: 40px;
+        }
+
+        .hero-btn {
+            display: inline-flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            gap: 12px;
+        }
+
+        .hero-btn::after {
+            content: "→";
+            transition: transform 0.3s;
+        }
+
+        .hero-btn:hover::after {
+            transform: translateX(8px);
+        }
+
+        .hero-shape {
+            position: absolute;
+            right: -10%;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50vw;
+            height: 50vw;
+            background: linear-gradient(45deg, #1a1a1a, #000);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .hero-shape::before {
+            content: '';
+            position: absolute;
+            inset: -1px;
+            border-radius: 50%;
+            padding: 1px;
+            background: linear-gradient(45deg, #333, #111);
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+
+        /* Rest of the styles remain the same */
+        .section {
+            padding: 120px 0;
+        }
+
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 80px;
+            font-weight: 500;
+        }
+
+        /* Grid layout for works */
+        .works-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        /* Work card styles */
+        .work-card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .work-card:hover {
+            transform: translateY(-10px); /* Raise card slightly */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+            border-color: #444;
+        }
+
+        /* Title of the work */
+        .work-title {
+            background: #000000;
+            padding: 16px;
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #fff;
+            margin: 0;
+        }
+
+        /* Image container */
+        .work-image {
+            aspect-ratio: 4/3;
+            background: #000 no-repeat center/cover;
+            transition: transform 0.3s;
+            width: 100%;
+        }
+
+        /* Adding hover effect to image */
+        .work-card:hover .work-image {
+            transform: scale(1.05); /* Slight zoom-in effect */
+        }
+
+        /* Background images for specific cards */
+        .work-card:nth-child(1) .work-image {
+            background-image: url('blancostudio_Concessionario.webp') !important; /* Replace with the path to your first image */
+        }
+
+        .work-card:nth-child(2) .work-image {
+            background-image: url('Restaurant.webp') !important; /* Replace with the path to your second image */
+        }
+
+        .work-card:nth-child(3) .work-image {
+            background-image: url('Photographer.webp') !important; /* Replace with the path to your third image */
+        }
+
+        .work-card:nth-child(4) .work-image {
+            background-image: url('blancostudio_Parrucco.webp') !important; /* Replace with the path to your fourth image */
+        }
+
+        .work-card:nth-child(5) .work-image {
+            background-image: url('staseraintv.webp') !important; /* Replace with the path to your fourth image */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .work-title {
+                font-size: 18px;
+            }
+            .work-card {
+                border-radius: 6px;
+            }
+        }
+
+        .work-desc {
+            color: #888;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 80px;
+        }
+
+        .about-text {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #888;
+        }
+
+        .contact {
+            font-size: 20px;
+            color: #888;
+            line-height: 1.6;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            transition: border-color 0.3s;
+        }
+
+        .contact a:hover {
+            border-color: #fff;
+        }
+
+        .footer {
+            padding: 40px 0;
+            border-top: 1px solid #111;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            color: #666;
+            font-size: 14px;
+        }
+
+        #cursor {
+            position: fixed;
+            width: 15px; /* Size of the cursor dot */
+            height: 15px; /* Size of the cursor dot */
+            background-color: white; /* Color of the cursor */
+            border-radius: 50%; /* Make it circular */
+            pointer-events: none; /* Prevent interaction */
+            transition: transform 0.05s ease-out; /* Smooth movement */
+            z-index: 9999; /* Ensure it stays above everything */
+        }
+
+        a, button {
+            cursor: none; /* Disable the default pointer behavior */
+        }
+
+        @media (max-width: 768px) {
+            body{
+                overflow-x: hidden;
+            }
+            #cursor{
+                display: none;
+            }
+            .nav-links {
+                display: none;
+            }
+            
+            .hero span {
+                font-size: 14px;
+                letter-spacing: 4px;
+            }
+            
+            .hero h1 {
+                font-size: 48px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .hero-shape {
+                width: 80vw;
+                height: 80vw;
+                opacity: 0.5;
+            }
+            
+            .works-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+            
+            .section {
+                padding: 80px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="cursor"></div>
+    <nav itemprop="navbar" class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo" itemprop="logo">blancostudio.dev</a>
+                <div class="nav-links">
+                    <a href="#works" itemprop="works">Works</a>
+                    <a href="#about" itemprop="about">About</a>
+                    <a href="#contact" itemprop="contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 itemprop="Design Developement Innovation">Design<br>Development<br>Innovation</h1>
+                <p itemprop="Blanco">We create exceptional digital experiences by combining innovative design with cutting-edge technology.</p>
+                <a href="#works" class="hero-btn" itemprop="works">View Our Work</a>
+            </div>
+        </div>
+        <div class="hero-shape"></div>
+    </section>
+
+    <!-- Rest of the HTML remains the same -->
+    <section id="works" class="section" itemprop="works">
+        <div class="container">
+            <h2 class="section-title" itemprop="title">Selected Works</h2>
+            <div class="works-grid">
+                <!-- Concessionario -->
+                    <div class="work-card">
+                        <a href="https://blancostudio.dev/Concessionario/" target="_blank" aria-label="Concessionario Site" itemprop="Concessionario">
+                            <div class="work-image"></div>
+                        </a> <!-- Immagine 1 -->
+                    </div>
+                </a>
+            
+                <!-- E-commerce -->
+                    <div class="work-card">
+                        <a href="https://blancostudio.dev/Restaurant/" target="_blank" aria-label="Restaurant's Site" itemprop="Resturant">
+                            <div class="work-image"></div>
+                        </a> <!-- Immagine 2 -->
+                    </div>
+            
+                <!-- Pizzeria -->
+                    <div class="work-card">
+                        <a href="https://blancostudio.dev/Photographer/" target="_blank" aria-label="Photographer's Site" itemprop="Photographer">
+                            <div class="work-image"></div>
+                        </a> <!-- Immagine 3 -->
+                    </div>
+            
+                <!-- Parrucco -->
+                    <div class="work-card">
+                        <a href="https://blancostudio.dev/Parrucco/" target="_blank" aria-label="Parrucco's Site" itemprop="Parrucco">
+                            <div class="work-image"></div>
+                        </a> <!-- Immagine 4 -->
+                    </div>
+                
+                <!-- Stasera in TV -->
+                    <div class="work-card">
+                        <a href="https://blancostudio.dev/staseraintv/" target="_blank" aria-label="Staseraintv's Site" itemprop="Staseraintv">
+                            <div class="work-image"></div>
+                        </a> <!-- Immagine 4 -->
+                    </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" itemprop="about">About</h2>
+            <div class="about-content">
+                <p class="about-text">We are a creative studio specializing in digital experiences. Our approach combines strategic thinking with innovative design and development solutions.</p>
+                <p class="about-text">Every project is an opportunity to push boundaries and create something meaningful that leaves a lasting impression.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" itemprop="contact">Contact</h2>
+            <div class="contact">
+                <p>Ready to start your project?<br>
+                <a href="mailto:blancostudio.dev@gmail.com" itemprop="email">blancostudio.dev@gmail.com</a></p>
+                <a href="tel:+393312176194" itemprop="phone">3312176194</a></p>
+                <a href="https://www.facebook.com/profile.php?id=61576346974248" itemprop="facebook">Facebook</a></p>
+                <a href="https://x.com/blancostudiodev" itemprop="x">X</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p itemprop="rights">© 2025 Blanco Studio</p>
+                <p itemprop="rights">All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    // Select the cursor element
+    const cursor = document.getElementById('cursor');
+
+    // Add an event listener for mouse movement
+    document.addEventListener('mousemove', (event) => {
+        // Get the mouse position
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+
+        // Update the cursor's position
+        cursor.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    });
+</script>
+</html>

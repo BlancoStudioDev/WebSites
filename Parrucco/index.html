@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURE//STYLE - Hair Salon</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+    <style>
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+        .nav-fixed {
+            backdrop-filter: blur(8px);
+        }
+        /* Mobile menu styles */
+        .mobile-menu {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        /* Form input styles */
+        .form-input:focus {
+            border-color: #000;
+            ring-color: #000;
+        }
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.4);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+        .nav-fixed {
+            backdrop-filter: blur(8px);
+        }
+        .mobile-menu {
+            transform: translateX(-100%);
+            transition: transform 0.3s ease-in-out;
+        }
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        /* New styles for booking section */
+        .booking-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .time-slot {
+            transition: all 0.3s ease;
+        }
+        .time-slot:hover {
+            background-color: #000;
+            color: white;
+        }
+        .time-slot.selected {
+            background-color: #000;
+            color: white;
+        }
+        .service-option {
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        .service-option:hover {
+            border-color: #000;
+        }
+        .service-option.selected {
+            border-color: #000;
+            background-color: #f8f8f8;
+        }
+        .mobile-menu {
+            transform: translateX(-100%);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            background: white;
+            width: 50vw; /* Exactly half of viewport width */
+            height: 100vh; /* Full viewport height */
+        }
+        .mobile-menu.active {
+            transform: translateX(0);
+        }
+        .menu-item {
+            position: relative;
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        .mobile-menu.active .menu-item {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .menu-item::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #000;
+            transition: width 0.3s ease;
+        }
+        .menu-item:hover::after {
+            width: 100%;
+        }
+        .mobile-menu.active .menu-item:nth-child(1) { transition-delay: 0.1s; }
+        .mobile-menu.active .menu-item:nth-child(2) { transition-delay: 0.2s; }
+        .mobile-menu.active .menu-item:nth-child(3) { transition-delay: 0.3s; }
+        
+        .close-button {
+            transition: transform 0.3s ease;
+        }
+        .close-button:hover {
+            transform: rotate(90deg);
+        }
+        
+        .book-now-button {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .book-now-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 nav-fixed shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">PURE//STYLE</h1>
+            <!-- Mobile menu button -->
+            <button class="md:hidden" onclick="toggleMenu()" aria-label="Toggle Menu">
+                <i data-feather="menu"></i>
+            </button>
+            <!-- Desktop menu -->
+            <div class="space-x-6 hidden md:flex">
+                <a href="#services" class="hover:text-gray-600">Services</a>
+                <a href="#about" class="hover:text-gray-600">About</a>
+                <a href="#contact" class="hover:text-gray-600">Contact</a>
+                <a href="#booking" class="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800">Book Now</a>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu fixed top-0 left-0 h-full shadow-2xl p-8 bg-white flex flex-col">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-12">
+                <h2 class="text-xl font-bold">PURE//STYLE</h2>
+                <button onclick="toggleMenu()" class="close-button p-2 rounded-full hover:bg-gray-100">
+                    <i data-feather="x" class="w-6 h-6"></i>
+                </button>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="flex flex-col space-y-6">
+                <a href="#services" class="menu-item text-lg font-medium px-2 py-1">
+                    <div class="flex items-center space-x-3">
+                        <i data-feather="scissors" class="w-5 h-5"></i>
+                        <span>Services</span>
+                    </div>
+                </a>
+                <a href="#about" class="menu-item text-lg font-medium px-2 py-1">
+                    <div class="flex items-center space-x-3">
+                        <i data-feather="users" class="w-5 h-5"></i>
+                        <span>About</span>
+                    </div>
+                </a>
+                <a href="#contact" class="menu-item text-lg font-medium px-2 py-1">
+                    <div class="flex items-center space-x-3">
+                        <i data-feather="phone" class="w-5 h-5"></i>
+                        <span>Contact</span>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Bottom Section with Book Now and Social -->
+            <div class="mt-auto">
+                <!-- Book Now Button -->
+                <a href="#booking" class="book-now-button w-full bg-black text-white px-6 py-4 rounded-xl text-center text-lg font-medium flex items-center justify-center space-x-2 mb-6">
+                    <i data-feather="calendar" class="w-5 h-5"></i>
+                    <span class="font-size=20px">Book Now</span>
+                </a>
+                
+                <!-- Social Links -->
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-gray-600 hover:text-black transition-colors">
+                        <i data-feather="instagram" class="w-6 h-6"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-black transition-colors">
+                        <i data-feather="facebook" class="w-6 h-6"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="pt-24 pb-12 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="relative h-64 md:h-96 rounded-lg overflow-hidden">
+                <img src="Salon_interior.jpg" alt="Salon Interior" class="w-full h-full object-cover">
+                <div class="absolute inset-0 hero-overlay flex items-center justify-center">
+                    <div class="text-center text-white px-4">
+                        <h2 class="text-3xl md:text-5xl font-bold mb-4">Transform Your Style</h2>
+                        <p class="text-lg md:text-xl mb-6">Experience the art of hair design</p>
+                        <a href="#booking" class="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-100 inline-block">
+                            Book Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="service-card bg-white p-6 rounded-lg text-center">
+                    <i data-feather="scissors" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Haircut & Styling</h3>
+                    <p class="text-gray-600">From $45</p>
+                </div>
+                <div class="service-card bg-white p-6 rounded-lg text-center">
+                    <i data-feather="star" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Color & Highlights</h3>
+                    <p class="text-gray-600">From $85</p>
+                </div>
+                <div class="service-card bg-white p-6 rounded-lg text-center">
+                    <i data-feather="droplet" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Treatment & Care</h3>
+                    <p class="text-gray-600">From $35</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="Salon_team.jpg" alt="Salon Team" class="rounded-lg w-full">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">About Us</h2>
+                    <p class="text-gray-600 mb-6">
+                        At PURE//STYLE, we believe in creating unique, personalized looks that enhance your natural beauty. 
+                        Our team of experienced stylists stays up-to-date with the latest trends and techniques to provide 
+                        you with exceptional service.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="flex items-center">
+                            <i data-feather="clock" class="w-5 h-5 mr-2"></i>
+                            <span>10+ Years</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="star" class="w-5 h-5 mr-2"></i>
+                            <span>5-Star Rated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><section id="booking" class="py-20 bg-black text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-5xl font-bold mb-6 text-center text-gray-300">Book Your Style Session</h2>
+            <p class="text-center text-gray-500 mb-10">Transform your look with our expert stylists</p>
+    
+            <div class="booking-card bg-white rounded-xl shadow-lg p-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
+                    <!-- Step indicators -->
+                    <div class="flex justify-center items-center">
+                        <div class="w-12 h-12 rounded-full border-2 border-black text-black flex items-center justify-center font-semibold">1</div>
+                        <span class="ml-4 text-xl text-gray-500">Service</span>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <div class="w-12 h-12 rounded-full border-2 border-black text-black flex items-center justify-center font-semibold">2</div>
+                        <span class="ml-4 text-xl text-gray-500">Date & Time</span>
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <div class="w-12 h-12 rounded-full border-2 border-black text-black flex items-center justify-center font-semibold">3</div>
+                        <span class="ml-4 text-xl text-gray-500">Your Details</span>
+                    </div>
+                </div>
+    
+                <form action="upload.php" method="POST" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Left Side -->
+                    <div class="space-y-6">
+                        <input type="text" name="first_name" placeholder="First Name" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                        <input type="text" name="last_name" placeholder="Last Name" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                        <input type="email" name="email" placeholder="Email" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                        <input type="tel" name="phone" placeholder="Phone" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600">
+                    </div>
+    
+                    <!-- Right Side -->
+                    <div class="space-y-6">
+                        <select name="service" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                            <option value="Haircut & Style">Haircut & Style</option>
+                            <option value="Color & Highlights">Color & Highlights</option>
+                            <option value="Treatment & Care">Treatment & Care</option>
+                        </select>
+                        <input type="date" name="date" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                        <input type="time" name="time" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black text-gray-600" required>
+                        <textarea name="notes" placeholder="Special requests or notes" class="p-4 border-2 border-gray-300 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-black h-24 text-gray-600"></textarea>
+                    </div>
+    
+                    <!-- Submit Button -->
+                    <div class="md:col-span-2 mt-8">
+                        <button type="submit" class="w-full bg-black text-white py-4 rounded-lg hover:bg-gray-800 transition-colors">
+                            Confirm Booking
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>              
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Visit Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <i data-feather="map-pin" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="font-semibold mb-2">Location</h3>
+                    <p class="text-gray-600">123 Style Street<br>New York, NY 10001</p>
+                </div>
+                <div class="text-center">
+                    <i data-feather="clock" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="font-semibold mb-2">Hours</h3>
+                    <p class="text-gray-600">Mon-Sat: 9am - 8pm<br>Sun: 10am - 6pm</p>
+                </div>
+                <div class="text-center">
+                    <i data-feather="phone" class="w-8 h-8 mx-auto mb-4"></i>
+                    <h3 class="font-semibold mb-2">Contact</h3>
+                    <p class="text-gray-600">(555) 123-4567<br>info@purestyle.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <p class="text-sm">© 2025 <a href="blancostudio.dev" style="text-decoration: none; color: rgb(255, 255, 255);">blancostudio.dev</a>. All rights reserved.</p>
+                <div class="flex space-x-4">
+                    <i data-feather="instagram" class="w-5 h-5"></i>
+                    <i data-feather="facebook" class="w-5 h-5"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+
+        // Mobile menu toggle
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html
