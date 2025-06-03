@@ -1,0 +1,2232 @@
+{
+    "Rai 1": [
+        {
+            "time": "18:45",
+            "title": "L'EreditÃ"
+        },
+        {
+            "time": "20:00",
+            "title": "Tg1"
+        },
+        {
+            "time": "20:30",
+            "title": "Cinque Minuti"
+        },
+        {
+            "time": "20:35",
+            "title": "Affari tuoi"
+        },
+        {
+            "time": "21:30",
+            "title": "DOC (Serie Tv)"
+        },
+        {
+            "time": "22:20",
+            "title": "DOC (Serie Tv) St 1  Ep 2  - Dai, riprovaci"
+        },
+        {
+            "time": "23:15",
+            "title": "Porta a porta"
+        },
+        {
+            "time": "23:55",
+            "title": "Tg1"
+        }
+    ],
+    "Rai 2": [
+        {
+            "time": "18:00",
+            "title": "Tg2"
+        },
+        {
+            "time": "18:20",
+            "title": "Referendum 2025"
+        },
+        {
+            "time": "18:50",
+            "title": "Tg Sport TG Sport Sera"
+        },
+        {
+            "time": "19:00",
+            "title": "Blue Bloods St 10  Ep 2  - La lista nera"
+        },
+        {
+            "time": "19:45",
+            "title": "Blue Bloods St 10  Ep 3  - Fratelli e sorelle"
+        },
+        {
+            "time": "20:30",
+            "title": "Tg2"
+        },
+        {
+            "time": "21:00",
+            "title": "TG2 Post"
+        },
+        {
+            "time": "21:20",
+            "title": "Belve"
+        }
+    ],
+    "Rai 3": [
+        {
+            "time": "19:00",
+            "title": "Tg3"
+        },
+        {
+            "time": "19:30",
+            "title": "Tg Regione"
+        },
+        {
+            "time": "19:51",
+            "title": "Tg Regione"
+        },
+        {
+            "time": "20:00",
+            "title": "Blob"
+        },
+        {
+            "time": "20:20",
+            "title": "Faccende complicate"
+        },
+        {
+            "time": "20:40",
+            "title": "Il cavallo e la torre"
+        },
+        {
+            "time": "20:50",
+            "title": "Un posto al sole"
+        },
+        {
+            "time": "21:20",
+            "title": "Che ci faccio qui"
+        }
+    ],
+    "Rai 4": [
+        {
+            "time": "18:20",
+            "title": "Hawaii Five-0"
+        },
+        {
+            "time": "19:05",
+            "title": "Senza traccia St 4  Ep 9"
+        },
+        {
+            "time": "19:49",
+            "title": "Senza traccia St 4  Ep 10"
+        },
+        {
+            "time": "20:34",
+            "title": "Criminal Minds St 13  Ep 14"
+        },
+        {
+            "time": "21:20",
+            "title": "The Equalizer 2 - Senza perdono"
+        },
+        {
+            "time": "23:23",
+            "title": "Wonderland"
+        },
+        {
+            "time": "23:57",
+            "title": "Intemperie"
+        },
+        {
+            "time": "01:44",
+            "title": "Appuntamento al cinema"
+        }
+    ],
+    "Canale 5": [
+        {
+            "time": "18:45",
+            "title": "CADUTA LIBERA"
+        },
+        {
+            "time": "19:42",
+            "title": "TG5 - ANTICIPAZIONE"
+        },
+        {
+            "time": "19:43",
+            "title": "CADUTA LIBERA"
+        },
+        {
+            "time": "19:57",
+            "title": "TG5 PRIMA PAGINA"
+        },
+        {
+            "time": "20:00",
+            "title": "TG5"
+        },
+        {
+            "time": "20:38",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "20:40",
+            "title": "STRISCIA LA NOTIZIA - LA VOCE DELLA COMPLOTTENZA"
+        },
+        {
+            "time": "21:21",
+            "title": "RIASSUNTO - MARIA CORLEONE 2"
+        }
+    ],
+    "Italia 1": [
+        {
+            "time": "18:13",
+            "title": "L'ISOLA DEI FAMOSI"
+        },
+        {
+            "time": "18:22",
+            "title": "STUDIO APERTO LIVE"
+        },
+        {
+            "time": "18:25",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "18:30",
+            "title": "STUDIO APERTO"
+        },
+        {
+            "time": "18:57",
+            "title": "STUDIO APERTO MAG"
+        },
+        {
+            "time": "19:28",
+            "title": "C.S.I. MIAMI - IL GIURAMENTO"
+        },
+        {
+            "time": "20:28",
+            "title": "NCIS - UNITA' ANTICRIMINE - SASSI DALLA LUNA"
+        },
+        {
+            "time": "21:16",
+            "title": "LE IENE"
+        }
+    ],
+    "Canale 20 Mediaset": [
+        {
+            "time": "18:18",
+            "title": "THE FLASH - LA PROSSIMA VOLTA IL FUOCO"
+        },
+        {
+            "time": "19:14",
+            "title": "PERSON OF INTEREST - CALCOLO DELLA MORTALITA'"
+        },
+        {
+            "time": "20:12",
+            "title": "THE BIG BANG THEORY - IL FATTORE MANDARINO"
+        },
+        {
+            "time": "20:37",
+            "title": "THE BIG BANG THEORY - IL PARADIGMA DEL PESCE GUASTO"
+        },
+        {
+            "time": "21:12",
+            "title": "SPIDER-MAN 2 - 1 PARTE"
+        },
+        {
+            "time": "22:32",
+            "title": "TGCOM24 BREAKING NEWS"
+        },
+        {
+            "time": "22:41",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "22:42",
+            "title": "SPIDER-MAN 2 - 2 PARTE"
+        }
+    ],
+    "Rete 4": [
+        {
+            "time": "18:58",
+            "title": "TG4 - TELEGIORNALE"
+        },
+        {
+            "time": "19:35",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "19:39",
+            "title": "LA PROMESSA III - 427 - PARTE 1 - 1aTV"
+        },
+        {
+            "time": "20:30",
+            "title": "4 DI SERA"
+        },
+        {
+            "time": "21:25",
+            "title": "E' SEMPRE CARTABIANCA"
+        },
+        {
+            "time": "00:50",
+            "title": "DALLA PARTE DEGLI ANIMALI"
+        },
+        {
+            "time": "02:27",
+            "title": "TG4 - ULTIMA ORA NOTTE"
+        },
+        {
+            "time": "02:47",
+            "title": "MORTACCI"
+        }
+    ],
+    "Warner TV": [
+        {
+            "time": "18:45",
+            "title": "Supernatural - Stagione 11 Episodio 22"
+        },
+        {
+            "time": "19:40",
+            "title": "Supernatural - Stagione 11 Episodio 23"
+        },
+        {
+            "time": "20:35",
+            "title": "Supernatural - Stagione 12 Episodio 1 - Resta calmo e va avanti"
+        },
+        {
+            "time": "21:30",
+            "title": "E.R. - Medici in prima linea - Stagione 1 Episodio 44"
+        },
+        {
+            "time": "00:45",
+            "title": "E.R. - Medici in prima linea - Stagione 1 Episodio 45"
+        },
+        {
+            "time": "04:00",
+            "title": "Supernatural - Stagione 11 Episodio 15"
+        },
+        {
+            "time": "04:50",
+            "title": "Supernatural - Stagione 11 Episodio 16"
+        },
+        {
+            "time": "05:35",
+            "title": "America: vero o falso? - Stagione 3 Episodio 7"
+        }
+    ],
+    "Rai Movie": [
+        {
+            "time": "19:25",
+            "title": "Resurrected"
+        },
+        {
+            "time": "21:10",
+            "title": "Boris Becker nascita di un campione"
+        },
+        {
+            "time": "23:00",
+            "title": "Machine Gun Preacher"
+        },
+        {
+            "time": "01:20",
+            "title": "Appuntamento al cinema"
+        },
+        {
+            "time": "01:25",
+            "title": "Raid - Una poliziotta fuori di testa"
+        },
+        {
+            "time": "03:05",
+            "title": "Occhi di cristallo"
+        },
+        {
+            "time": "05:00",
+            "title": "Cleopatra"
+        }
+    ],
+    "Cine 34": [
+        {
+            "time": "18:54",
+            "title": "A CENA CON - BOMBER - 1 PARTE"
+        },
+        {
+            "time": "19:46",
+            "title": "TGCOM24 BREAKING NEWS"
+        },
+        {
+            "time": "19:56",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "19:57",
+            "title": "A CENA CON - BOMBER - 2 PARTE"
+        },
+        {
+            "time": "21:00",
+            "title": "MEDITERRANEO - 1 PARTE"
+        },
+        {
+            "time": "22:05",
+            "title": "TGCOM24 BREAKING NEWS"
+        },
+        {
+            "time": "22:13",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "22:15",
+            "title": "MEDITERRANEO - 2 PARTE"
+        }
+    ],
+    "TWENTYSEVEN": [
+        {
+            "time": "18:24",
+            "title": "LA CASA NELLA PRATERIA - I RICORDI DEL NONNO"
+        },
+        {
+            "time": "19:28",
+            "title": "MONK - IL SIGNOR MONK E I NUDISTI"
+        },
+        {
+            "time": "20:24",
+            "title": "MONK - IL SIGNOR MONK E LA FIDANZATA DEL CAPITANO"
+        },
+        {
+            "time": "21:18",
+            "title": "ASSASSINIO SUL NILO - 1 PARTE"
+        },
+        {
+            "time": "22:27",
+            "title": "TGCOM24 BREAKING NEWS - 20/05/2025"
+        },
+        {
+            "time": "22:35",
+            "title": "METEO.IT - 20/05/2025"
+        },
+        {
+            "time": "22:36",
+            "title": "ASSASSINIO SUL NILO - 2 PARTE"
+        },
+        {
+            "time": "00:02",
+            "title": "BUGIARDO BUGIARDO - 1 PARTE"
+        }
+    ],
+    "Iris": [
+        {
+            "time": "19:11",
+            "title": "KOJAK - CACCIA AL TRADITORE"
+        },
+        {
+            "time": "20:12",
+            "title": "WALKER TEXAS RANGER - TERRITORIO DI CONQUISTA"
+        },
+        {
+            "time": "21:15",
+            "title": "GLI SPIETATI"
+        },
+        {
+            "time": "23:56",
+            "title": "DUE STELLE NELLA POLVERE"
+        },
+        {
+            "time": "02:05",
+            "title": "FENOMENI PARANORMALI INCONTROLLABILI"
+        },
+        {
+            "time": "03:55",
+            "title": "CIAK NEWS"
+        },
+        {
+            "time": "03:57",
+            "title": "FILO DA TORCERE"
+        },
+        {
+            "time": "05:47",
+            "title": "FINCHE' C'E' DITTA C'E' SPERANZA - 4"
+        }
+    ],
+    "TV8": [
+        {
+            "time": "19:00",
+            "title": "Alessandro Borghese 4 Ristoranti - Stagione 5 Episodio 2 - Delta del Po"
+        },
+        {
+            "time": "20:15",
+            "title": "Foodish Anteprima - Prima TV"
+        },
+        {
+            "time": "20:20",
+            "title": "Foodish - Stagione 1 Episodio 24 - Prima TV"
+        },
+        {
+            "time": "21:30",
+            "title": "Casino Royale"
+        },
+        {
+            "time": "00:30",
+            "title": "L'uomo sul treno"
+        },
+        {
+            "time": "02:30",
+            "title": "Blacklight"
+        },
+        {
+            "time": "04:20",
+            "title": "Coppie che uccidono - Stagione 14 Episodio 1 - Patrick Frazee e Krystal Kenney"
+        },
+        {
+            "time": "05:10",
+            "title": "Lady Killer - Stagione 22 Episodio 23 - Denise Davidson"
+        }
+    ],
+    "Italia 2": [
+        {
+            "time": "18:10",
+            "title": "ONE PIECE - RUBBER VS JINBEI"
+        },
+        {
+            "time": "18:39",
+            "title": "ONE PIECE - IL CAMBIAMENTO"
+        },
+        {
+            "time": "19:09",
+            "title": "BOB HEARTS ABISHOLA - UN CUORE FRAGILE"
+        },
+        {
+            "time": "19:34",
+            "title": "BOB HEARTS ABISHOLA - I NIGERIANI NON FANNO COSE INUTILI"
+        },
+        {
+            "time": "20:00",
+            "title": "DUE UOMINI E 1/2 - NON ESISTE IL NATALE PERFETTO"
+        },
+        {
+            "time": "20:26",
+            "title": "DUE UOMINI E 1/2 - RABBIA DA STEROIDI"
+        },
+        {
+            "time": "20:58",
+            "title": "DUE UOMINI E 1/2 - COGLI LA ROSA!"
+        },
+        {
+            "time": "21:25",
+            "title": "THE BIG BANG THEORY - L'INSUFFICIENZA DA HOFSTADTER"
+        }
+    ],
+    "La 5": [
+        {
+            "time": "20:10",
+            "title": "UOMINI E DONNE"
+        },
+        {
+            "time": "21:37",
+            "title": "SAM & KATE - 1 PARTE - 1aTV"
+        },
+        {
+            "time": "22:43",
+            "title": "TGCOM24 BREAKING NEWS"
+        },
+        {
+            "time": "22:50",
+            "title": "METEO.IT"
+        },
+        {
+            "time": "22:51",
+            "title": "SAM & KATE - 2 PARTE - 1aTV"
+        },
+        {
+            "time": "23:50",
+            "title": "LA SCELTA - THE CHOICE - 1 PARTE"
+        },
+        {
+            "time": "01:02",
+            "title": "TGCOM24 BREAKING NEWS"
+        },
+        {
+            "time": "01:06",
+            "title": "METEO.IT"
+        }
+    ],
+    "NOVE": [
+        {
+            "time": "19:20",
+            "title": "Cash or Trash - Chi offre di piÃ¹? - Stagione 4 Episodio 7"
+        },
+        {
+            "time": "20:30",
+            "title": "Don't Forget the Lyrics - Stai sul pezzo - 1^TV - Stagione 7 Episodio 50"
+        },
+        {
+            "time": "21:30",
+            "title": "Angeli e demoni - Film/Thriller"
+        },
+        {
+            "time": "00:15",
+            "title": "Like A Star - Stagione 1 Episodio 1"
+        },
+        {
+            "time": "03:10",
+            "title": "Nudi e crudi XL - Stagione 4 Episodio 2 - Sopravvivere agli squali"
+        },
+        {
+            "time": "04:05",
+            "title": "Nudi e crudi XL - Stagione 4 Episodio 3 - Luci in mare"
+        },
+        {
+            "time": "05:00",
+            "title": "Alta infedeltÃ  - Stagione 4 Episodio 31 - Pazzi di lei"
+        },
+        {
+            "time": "05:30",
+            "title": "Alta infedeltÃ  - Stagione 4 Episodio 32 - Il nuovo marito di mamma"
+        }
+    ],
+    "Cielo": [
+        {
+            "time": "19:00",
+            "title": "Cucine da incubo - Stagione 3 Episodio 3 - La Fontanina"
+        },
+        {
+            "time": "20:00",
+            "title": "Affari al buio - Stagione 1 Episodio 12 - Asta reale"
+        },
+        {
+            "time": "20:30",
+            "title": "Affari di famiglia - Stagione 20 Episodio 17 - Charlie Brown originale?"
+        },
+        {
+            "time": "21:20",
+            "title": "Il Trono di Spade - Stagione 3 Episodio 7 - L'orso e la fanciulla bionda"
+        },
+        {
+            "time": "22:25",
+            "title": "Il Trono di Spade - Stagione 3 Episodio 8 - I secondi figli"
+        },
+        {
+            "time": "23:30",
+            "title": "Triangle of Sadness"
+        },
+        {
+            "time": "02:10",
+            "title": "Easy Love"
+        },
+        {
+            "time": "04:00",
+            "title": "Vulva 3.0: questione di labbra"
+        }
+    ],
+    "La7": [
+        {
+            "time": "18:30",
+            "title": "Famiglie dâItalia"
+        },
+        {
+            "time": "20:00",
+            "title": "TG LA7"
+        },
+        {
+            "time": "20:35",
+            "title": "Otto e Mezzo"
+        },
+        {
+            "time": "21:15",
+            "title": "DiMartedÃ¬"
+        },
+        {
+            "time": "01:00",
+            "title": "TG LA7 Notte"
+        },
+        {
+            "time": "01:10",
+            "title": "Otto e Mezzo (r)"
+        },
+        {
+            "time": "01:55",
+            "title": "Camera con Vista"
+        },
+        {
+            "time": "02:15",
+            "title": "La Torre di Babele doc"
+        }
+    ],
+    "La7 D": [
+        {
+            "time": "18:30",
+            "title": "TG LA7d"
+        },
+        {
+            "time": "18:35",
+            "title": "Boston legal"
+        },
+        {
+            "time": "20:15",
+            "title": "How I met your mother"
+        },
+        {
+            "time": "21:15",
+            "title": "Josephine, Ange Gardien"
+        },
+        {
+            "time": "23:05",
+            "title": "Josephine, Ange Gardien"
+        },
+        {
+            "time": "00:55",
+            "title": "This is us"
+        },
+        {
+            "time": "03:20",
+            "title": "LA7 - I Segreti della Corona"
+        },
+        {
+            "time": "04:20",
+            "title": "I menÃ¹ di Benedetta"
+        }
+    ],
+    "Food Network": [
+        {
+            "time": "18:00",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 1 Episodio 1 - Il mare d'estate"
+        },
+        {
+            "time": "18:50",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 1 Episodio 11 - Una cena a Napoli"
+        },
+        {
+            "time": "19:35",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 1 Episodio 7 - Insalate"
+        },
+        {
+            "time": "20:15",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 1 Episodio 9 - Melanzane che bontÃ"
+        },
+        {
+            "time": "20:50",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 1 Episodio 12 - Estate spagnola"
+        },
+        {
+            "time": "21:25",
+            "title": "In cucina con Luca Pappagallo - Estate - Stagione 2 Episodio 1 - Ricette a base di pesce"
+        },
+        {
+            "time": "22:00",
+            "title": "Scarpetta d'Italia - 1^TV - Stagione 4 Episodio 6 - Perugia"
+        },
+        {
+            "time": "23:00",
+            "title": "Scarpetta d'Italia - Stagione 4 Episodio 5 - Napoli"
+        }
+    ],
+    "TOP CRIME": [
+        {
+            "time": "18:19",
+            "title": "MAJOR CRIMES - LA CITTA' SANTUARIO - V PARTE"
+        },
+        {
+            "time": "19:17",
+            "title": "THE CLOSER - BUONA FEDE"
+        },
+        {
+            "time": "20:18",
+            "title": "THE CLOSER - NEL BAGAGLIAIO"
+        },
+        {
+            "time": "21:17",
+            "title": "CHICAGO P.D. - LINEA DI GALLEGGIAMENTO"
+        },
+        {
+            "time": "22:08",
+            "title": "CHICAGO P.D. - INVENTARIO"
+        },
+        {
+            "time": "23:01",
+            "title": "CHICAGO P.D. - ANCORA DI PIU'"
+        },
+        {
+            "time": "23:59",
+            "title": "C.S.I. MIAMI - A COLPI D'ASCIA"
+        },
+        {
+            "time": "00:53",
+            "title": "C.S.I. MIAMI - DISONORE"
+        }
+    ],
+    "GIALLO TV": [
+        {
+            "time": "19:10",
+            "title": "L'ispettore Barnaby - Stagione 8 Episodio 8 - Midsomer Rhapsody"
+        },
+        {
+            "time": "21:10",
+            "title": "Le indagini di Roy Grace - 1^TV - Stagione 4 Episodio 3 - Tu sei morta"
+        },
+        {
+            "time": "23:10",
+            "title": "Vera - Stagione 14 Episodio 1"
+        },
+        {
+            "time": "01:10",
+            "title": "I misteri di Murdoch - Stagione 8 Episodio 17 - Il giorno delle elezioni"
+        },
+        {
+            "time": "02:10",
+            "title": "I misteri di Murdoch - Stagione 8 Episodio 18 - Il furbo detective"
+        },
+        {
+            "time": "03:10",
+            "title": "Torbidi delitti - Stagione 3 Episodio 3 - Un salto nel buio"
+        },
+        {
+            "time": "04:10",
+            "title": "Torbidi delitti - Stagione 3 Episodio 4 - VenerdÃ¬ Santo, venerdÃ¬ di morte"
+        },
+        {
+            "time": "05:05",
+            "title": "Torbidi delitti - Stagione 4 Episodio 2 - Il canale"
+        }
+    ],
+    "Rai Premium": [
+        {
+            "time": "18:25",
+            "title": "Don Matteo St 10  Ep 18  - Le due madri"
+        },
+        {
+            "time": "19:25",
+            "title": "Il restauratore St 2  Ep 11  - Il vampiro"
+        },
+        {
+            "time": "20:25",
+            "title": "Il restauratore St 2  Ep 12  - Alle corde"
+        },
+        {
+            "time": "21:20",
+            "title": "Il commissario Dupin St 1  Ep 12  - Gloria bretone"
+        },
+        {
+            "time": "22:55",
+            "title": "Master Crimes St 1  Ep 3  - Sarai un uomo"
+        },
+        {
+            "time": "23:50",
+            "title": "Master Crimes St 1  Ep 4  - Sotto pressione"
+        },
+        {
+            "time": "00:45",
+            "title": "Storie italiane"
+        },
+        {
+            "time": "02:50",
+            "title": "Un ciclone in convento St 10  Ep 2  - Bambini prodigio"
+        }
+    ],
+    "Mediaset Extra": [
+        {
+            "time": "21:24",
+            "title": "L'ISOLA DEI FAMOSI - EXTENDED EDITION - L'ISOLA DEI FAMOSI - EXTENDED EDITION, 9"
+        },
+        {
+            "time": "01:09",
+            "title": "TGCOM24 BREAKING NEWS - 20/05/2025"
+        },
+        {
+            "time": "01:16",
+            "title": "MOVIE TRAILER"
+        },
+        {
+            "time": "01:18",
+            "title": "L'ISOLA DEI FAMOSI - EXTENDED EDITION - L'ISOLA DEI FAMOSI - EXTENDED EDITION, 9"
+        },
+        {
+            "time": "04:23",
+            "title": "L'ISOLA DEI FAMOSI - EXTENDED EDITION - L'ISOLA DEI FAMOSI - EXTENDED EDITION, 8"
+        }
+    ],
+    "HGTV - HOME GARDEN TV": [
+        {
+            "time": "18:10",
+            "title": "Casa su misura - Stagione 2 Episodio 10 - Attratti dalla vita di campagna, coppia cerca casa in Texas"
+        },
+        {
+            "time": "19:05",
+            "title": "Casa su misura - Stagione 2 Episodio 11 - Coppia con bimbo in arrivo cerca casa moderna"
+        },
+        {
+            "time": "20:00",
+            "title": "Casa su misura - Stagione 2 Episodio 12 - Tre generazioni, una casa su misura"
+        },
+        {
+            "time": "21:00",
+            "title": "Che affare! Con Tarek e Heather - Stagione 1 Episodio 5 - Orrori"
+        },
+        {
+            "time": "22:00",
+            "title": "Che affare! Con Tarek e Heather - 1^TV - Stagione 1 Episodio 7 - Grandi modifiche"
+        },
+        {
+            "time": "23:00",
+            "title": "Che affare! Con Tarek e Heather - Stagione 1 Episodio 6 - Stile familiare"
+        },
+        {
+            "time": "00:00",
+            "title": "Chi cerca trova - Stagione 12 Episodio 8 - Olanda"
+        },
+        {
+            "time": "00:55",
+            "title": "Chi cerca trova - Stagione 12 Episodio 9"
+        }
+    ],
+    "TV2000": [
+        {
+            "time": "18:04",
+            "title": "Rosario In Diretta Da Lourdes"
+        },
+        {
+            "time": "18:32",
+            "title": "Tg2000"
+        },
+        {
+            "time": "19:08",
+            "title": "Santa Messa"
+        },
+        {
+            "time": "19:40",
+            "title": "In cammino"
+        },
+        {
+            "time": "20:12",
+            "title": "Santo Rosario da Cascia"
+        },
+        {
+            "time": "20:51",
+            "title": "Tg2000"
+        },
+        {
+            "time": "21:16",
+            "title": "Il gesuita"
+        },
+        {
+            "time": "23:05",
+            "title": "Sulle ali delle aquile"
+        }
+    ],
+    "Donna TV": [
+        {
+            "time": "18:00",
+            "title": "Pillole Di Sapori"
+        },
+        {
+            "time": "18:30",
+            "title": "Tormento D'Amore"
+        },
+        {
+            "time": "19:00",
+            "title": "Tormento D'Amore"
+        },
+        {
+            "time": "19:30",
+            "title": "Emozioni dal Mondo"
+        },
+        {
+            "time": "20:00",
+            "title": "Top Model"
+        },
+        {
+            "time": "21:00",
+            "title": "Cold Squad"
+        },
+        {
+            "time": "22:00",
+            "title": "Italia Avventura"
+        },
+        {
+            "time": "22:30",
+            "title": "Luisana Mia"
+        }
+    ],
+    "ALMA TV": [
+        {
+            "time": "19:00",
+            "title": "L'Argonauta"
+        },
+        {
+            "time": "19:30",
+            "title": "Atlante"
+        },
+        {
+            "time": "20:00",
+            "title": "L'Italia In Tour"
+        },
+        {
+            "time": "20:30",
+            "title": "In Gran Forma Con Rosanna Lambertucci"
+        },
+        {
+            "time": "21:00",
+            "title": "Cucino Per Te"
+        },
+        {
+            "time": "21:30",
+            "title": "Mangiare Con Gusto"
+        },
+        {
+            "time": "22:00",
+            "title": "Frittanza Altro Fritto Altra Corsa"
+        },
+        {
+            "time": "22:30",
+            "title": "I Sapori Del Sole"
+        }
+    ],
+    "TRAVEL TV": [
+        {
+            "time": "18:00",
+            "title": "Andata e Ritorno"
+        },
+        {
+            "time": "18:30",
+            "title": "Tesori e Meraviglie"
+        },
+        {
+            "time": "19:00",
+            "title": "Meraviglie della Natura"
+        },
+        {
+            "time": "20:00",
+            "title": "Uno Sguardo Dal Cielo"
+        },
+        {
+            "time": "21:00",
+            "title": "Viaggio in Italia"
+        },
+        {
+            "time": "21:30",
+            "title": "Cities Of The World"
+        },
+        {
+            "time": "22:00",
+            "title": "Weekend"
+        },
+        {
+            "time": "22:30",
+            "title": "K Around The World"
+        }
+    ],
+    "Italia 7 Gold": [
+        {
+            "time": "18:00",
+            "title": "MIMMO PESCE SHOW"
+        },
+        {
+            "time": "19:00",
+            "title": "SUPERMERCATO"
+        },
+        {
+            "time": "19:30",
+            "title": "TG7"
+        },
+        {
+            "time": "20:00",
+            "title": "CASALOTTO"
+        },
+        {
+            "time": "20:30",
+            "title": "DIRETTA STADIO"
+        },
+        {
+            "time": "23:30",
+            "title": "CALCISSIMO"
+        },
+        {
+            "time": "01:00",
+            "title": "PROGRAMMAZIONE NOTTURNA"
+        }
+    ],
+    "TeleReporter": [
+        {
+            "time": "19:00",
+            "title": "Mezzâora Per Voi â Yoga"
+        },
+        {
+            "time": "19:24",
+            "title": "Mezzâora Per Voi â Pilates"
+        },
+        {
+            "time": "19:49",
+            "title": "Mezzâora Per Voi â Tonificazione"
+        },
+        {
+            "time": "20:15",
+            "title": "Passatempo"
+        },
+        {
+            "time": "20:30",
+            "title": "Zerovero"
+        },
+        {
+            "time": "21:15",
+            "title": "Il Rompiscatole â Home Ed."
+        },
+        {
+            "time": "21:30",
+            "title": "Lo Specchio"
+        },
+        {
+            "time": "22:00",
+            "title": "Storie"
+        }
+    ],
+    "TeleCampione Svizzera Italiana": [
+        {
+            "time": "18:00",
+            "title": "Mezzâora Per Voi â Pilates"
+        },
+        {
+            "time": "18:30",
+            "title": "Mezzâora Per Voi â Tonificazione"
+        },
+        {
+            "time": "19:00",
+            "title": "La Vetrina DellâAuto"
+        },
+        {
+            "time": "20:00",
+            "title": "Zerovero"
+        },
+        {
+            "time": "20:45",
+            "title": "Il Rompiscatole â Home Ed."
+        },
+        {
+            "time": "21:00",
+            "title": "Il Gioco Del Mondo"
+        },
+        {
+            "time": "21:30",
+            "title": "Next To The Truckers"
+        },
+        {
+            "time": "22:00",
+            "title": "I Sognatori"
+        }
+    ],
+    "La1": [
+        {
+            "time": "18:00",
+            "title": "Telegiornale flash Le notizie della giornata"
+        },
+        {
+            "time": "18:10",
+            "title": "Zerovero Conduce Daiana Crivelli"
+        },
+        {
+            "time": "19:00",
+            "title": "Il Quotidiano AttualitÃ  della Svizzera italiana"
+        },
+        {
+            "time": "19:40",
+            "title": "Doppia scelta Conduce Carla Norghauer"
+        },
+        {
+            "time": "19:55",
+            "title": "Meteo regionale I colori del tempo"
+        },
+        {
+            "time": "20:00",
+            "title": "Telegiornale Le notizie di prima serata"
+        },
+        {
+            "time": "20:35",
+            "title": "Meteo Tutti i colori del tempo"
+        },
+        {
+            "time": "20:40",
+            "title": "FalÃ²"
+        }
+    ],
+    "La2": [
+        {
+            "time": "18:40",
+            "title": "Il prima e dopo sport Immagini sportive"
+        },
+        {
+            "time": "19:10",
+            "title": "Hudson & Rex - Amore criminale Stagione 4, episodio 7"
+        },
+        {
+            "time": "20:00",
+            "title": "Telesguard"
+        },
+        {
+            "time": "20:15",
+            "title": "Hockey su ghiaccio: Mondiali 2025 - Svezia - Canada Da Stoccolma (SWE)"
+        },
+        {
+            "time": "22:45",
+            "title": "Play Suisse - Videogiocatori nati"
+        },
+        {
+            "time": "23:45",
+            "title": "Blue Bloods - Nessuna intromissione Stagione 12, episodio 19"
+        },
+        {
+            "time": "00:30",
+            "title": "Blue Bloods - I tre Reagan Stagione 12, episodio 20"
+        },
+        {
+            "time": "01:10",
+            "title": "Telesguard"
+        }
+    ],
+    "Rai Sport +HD": [
+        {
+            "time": "18:00",
+            "title": "Biliardo"
+        },
+        {
+            "time": "20:30",
+            "title": "Orienteering"
+        },
+        {
+            "time": "21:00",
+            "title": "Pallanuoto"
+        },
+        {
+            "time": "22:00",
+            "title": "Giro d'Italia Ciclismo. TGiro"
+        },
+        {
+            "time": "23:30",
+            "title": "Tg Sport Speciale TG Sport"
+        },
+        {
+            "time": "23:45",
+            "title": "Tg Sport TG Sport Notte"
+        },
+        {
+            "time": "00:00",
+            "title": "Giro d'Italia"
+        },
+        {
+            "time": "01:00",
+            "title": "Biliardo"
+        }
+    ],
+    "SuperTennis": [
+        {
+            "time": "19:15",
+            "title": "Supertennis TG"
+        },
+        {
+            "time": "19:30",
+            "title": "WTA 250 Rabat (differita)"
+        },
+        {
+            "time": "21:00",
+            "title": "WTA 500 Strasburgo (replica)"
+        },
+        {
+            "time": "22:45",
+            "title": "Tennis Parade"
+        },
+        {
+            "time": "23:00",
+            "title": "WTA 250 Rabat (replica)"
+        },
+        {
+            "time": "00:45",
+            "title": "Cronache Italiane"
+        },
+        {
+            "time": "01:00",
+            "title": "WTA 500 Strasburgo (replica)"
+        },
+        {
+            "time": "03:00",
+            "title": "WTA 250 Rabat (replica)"
+        }
+    ],
+    "Euro Sport": [
+        {
+            "time": "18:45",
+            "title": "World Series Trail Running - Stagione 2025 - Il Golfo dell'Isola"
+        },
+        {
+            "time": "20:00",
+            "title": "Tennis - The Kings Palace"
+        },
+        {
+            "time": "21:00",
+            "title": "Motori - Speedway Grand Prix - Stagione 2025 - Varsavia"
+        },
+        {
+            "time": "22:00",
+            "title": "Motori - Formula E FIA Championship - Stagione 2024 - Tokyo"
+        },
+        {
+            "time": "23:00",
+            "title": "Ciclismo - 108esimo Giro d'Italia - Stagione 2025 - 10a tappa. Cronometro - Lucca - Pisa (28,6 km)"
+        },
+        {
+            "time": "00:00",
+            "title": "Coppa del Mondo - Stagione 2025 - Keqiao. Finale Boulder M"
+        },
+        {
+            "time": "01:30",
+            "title": "Ciclismo - 108esimo Giro d'Italia - Stagione 2025 - 10a tappa. Cronometro - Lucca - Pisa (28,6 km)"
+        }
+    ],
+    "SportItalia": [
+        {
+            "time": "19:00",
+            "title": "Calcio Today (diretta)"
+        },
+        {
+            "time": "21:00",
+            "title": "Calcio Tonight (diretta)"
+        },
+        {
+            "time": "23:00",
+            "title": "Sportitaliamercato (diretta)"
+        },
+        {
+            "time": "00:00",
+            "title": "Si Live 24 (diretta)"
+        },
+        {
+            "time": "00:30",
+            "title": "Sportitaliamercato"
+        },
+        {
+            "time": "01:30",
+            "title": "Campionato Argentino River Plate-Platense (diretta)"
+        },
+        {
+            "time": "03:30",
+            "title": "Si Live 24"
+        },
+        {
+            "time": "04:00",
+            "title": "Si Live 24"
+        }
+    ],
+    "Rai Gulp": [
+        {
+            "time": "18:05",
+            "title": "Idefix e gli Irriducibili"
+        },
+        {
+            "time": "18:20",
+            "title": "Klincus St 1  Ep 17  - Ricognizione"
+        },
+        {
+            "time": "18:45",
+            "title": "Meteo Spazio"
+        },
+        {
+            "time": "18:55",
+            "title": "La banda della natura St 1  Ep 24  - La guerra dei calabroni"
+        },
+        {
+            "time": "19:10",
+            "title": "Anatane e i ragazzi di Okura St 1  Ep 19  - Una vecchia conoscenza"
+        },
+        {
+            "time": "19:35",
+            "title": "Vita da giungla alla riscossa! St 2  Ep 45  - Risate nella giungla"
+        },
+        {
+            "time": "19:45",
+            "title": "Vita da giungla alla riscossa!"
+        },
+        {
+            "time": "20:00",
+            "title": "Kung Fu Panda - Le zampe del destino"
+        }
+    ],
+    "Rai YoYo": [
+        {
+            "time": "18:05",
+            "title": "Hello Yoyo St 3  Ep 17  - What a journey!"
+        },
+        {
+            "time": "18:30",
+            "title": "Spidey e i suoi fantastici amici"
+        },
+        {
+            "time": "18:55",
+            "title": "Peppa Pig St 9  Ep 14  - L'hula hoop"
+        },
+        {
+            "time": "19:00",
+            "title": "Peppa Pig St 9  Ep 15  - Al parco"
+        },
+        {
+            "time": "19:05",
+            "title": "Peppa Pig St 9  Ep 16  - La barca di salvataggio"
+        },
+        {
+            "time": "19:10",
+            "title": "Peppa Pig St 9  Ep 17  - Riffa di beneficenza"
+        },
+        {
+            "time": "19:15",
+            "title": "La famiglia Volpitassi St 2  Ep 49  - La Principessa Berry"
+        },
+        {
+            "time": "19:25",
+            "title": "La famiglia Volpitassi St 2  Ep 50  - La mappa del tesoro"
+        }
+    ],
+    "Boing": [
+        {
+            "time": "18:30",
+            "title": "Teen Titans Go!"
+        },
+        {
+            "time": "18:50",
+            "title": "Teen Titans Go!"
+        },
+        {
+            "time": "19:30",
+            "title": "Teen Titans Go!"
+        },
+        {
+            "time": "19:50",
+            "title": "Clarence"
+        },
+        {
+            "time": "21:35",
+            "title": "Doraemon"
+        },
+        {
+            "time": "22:00",
+            "title": "Doraemon"
+        },
+        {
+            "time": "22:30",
+            "title": "Captain Tsubasa"
+        },
+        {
+            "time": "22:55",
+            "title": "Dragon Ball Super"
+        }
+    ],
+    "Cartoonito": [
+        {
+            "time": "18:05",
+            "title": "Blaze e  le megamacchine"
+        },
+        {
+            "time": "18:35",
+            "title": "Blaze e  le megamacchine"
+        },
+        {
+            "time": "19:00",
+            "title": "Batwheels"
+        },
+        {
+            "time": "19:30",
+            "title": "Batwheels - new eps"
+        },
+        {
+            "time": "19:50",
+            "title": "Talking Tom Heros - Super Amici"
+        },
+        {
+            "time": "20:10",
+            "title": "La casa delle Bambole di Gabby - new eps"
+        },
+        {
+            "time": "20:40",
+            "title": "La casa delle Bambole di Gabby - new eps"
+        },
+        {
+            "time": "21:00",
+            "title": "Chi ha sfidato Ninna e Matti?"
+        }
+    ],
+    "Frisbee": [
+        {
+            "time": "18:05",
+            "title": "Curioso come George - Stagione 11 Episodio 1"
+        },
+        {
+            "time": "18:30",
+            "title": "Curioso come George - Stagione 11 Episodio 2"
+        },
+        {
+            "time": "18:55",
+            "title": "Super Wings - Eroi elettrici - Stagione 8 Episodio 3"
+        },
+        {
+            "time": "19:05",
+            "title": "Super Wings - Eroi elettrici - Stagione 8 Episodio 4"
+        },
+        {
+            "time": "19:25",
+            "title": "Curioso come George - Stagione 11 Episodio 3"
+        },
+        {
+            "time": "19:50",
+            "title": "Curioso come George - Stagione 11 Episodio 4"
+        },
+        {
+            "time": "20:15",
+            "title": "Curioso come George - Stagione 11 Episodio 5"
+        },
+        {
+            "time": "20:45",
+            "title": "Curioso come George - Stagione 11 Episodio 6"
+        }
+    ],
+    "K2": [
+        {
+            "time": "18:00",
+            "title": "Il barbiere pasticciere - Stagione 4 Episodio 6"
+        },
+        {
+            "time": "18:15",
+            "title": "Alvinnn!!! And the Chipmunks - Stagione 1 Episodio 23"
+        },
+        {
+            "time": "18:25",
+            "title": "Alvinnn!!! And the Chipmunks - Stagione 1 Episodio 24"
+        },
+        {
+            "time": "18:40",
+            "title": "Alvinnn!!! And the Chipmunks - Stagione 1 Episodio 25"
+        },
+        {
+            "time": "18:55",
+            "title": "Alvinnn!!! And the Chipmunks - Stagione 1 Episodio 26"
+        },
+        {
+            "time": "19:05",
+            "title": "Alvinnn!!! And the Chipmunks - Stagione 1 Episodio 27"
+        },
+        {
+            "time": "19:20",
+            "title": "Il barbiere pasticciere - Stagione 2 Episodio 10"
+        },
+        {
+            "time": "19:45",
+            "title": "Il barbiere pasticciere - Stagione 2 Episodio 13"
+        }
+    ],
+    "DeaKids": [
+        {
+            "time": "18:00",
+            "title": "Isadora Moon - Stagione 1 Episodio 23 - Vola Isadora, vola!"
+        },
+        {
+            "time": "18:10",
+            "title": "Isadora Moon - Stagione 1 Episodio 24 - L'erba di drago"
+        },
+        {
+            "time": "18:25",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 37 - Pan Barbiere e Baguette. 1a parte"
+        },
+        {
+            "time": "18:35",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 38 - Pan Barbiere e Baguette. 2a parte"
+        },
+        {
+            "time": "18:45",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 39 - Pan Barbiere e Baguette. 3a parte"
+        },
+        {
+            "time": "18:55",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 2 - Ciambellina capricciosa"
+        },
+        {
+            "time": "19:05",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 3 - Un'acconciatura da urlo"
+        },
+        {
+            "time": "19:15",
+            "title": "Il Barbiere Pasticciere - Stagione 1 Episodio 4 - Cercasi assistente"
+        }
+    ],
+    "Super": [
+        {
+            "time": "18:15",
+            "title": "Lo Show di Patrick Stella"
+        },
+        {
+            "time": "18:40",
+            "title": "Lo Show di Patrick Stella"
+        },
+        {
+            "time": "19:05",
+            "title": "Lo Show di Patrick Stella"
+        },
+        {
+            "time": "19:30",
+            "title": "A casa dei Loud"
+        },
+        {
+            "time": "20:00",
+            "title": "A casa dei Loud"
+        },
+        {
+            "time": "20:25",
+            "title": "A casa dei Loud"
+        },
+        {
+            "time": "20:50",
+            "title": "Henry Danger"
+        },
+        {
+            "time": "21:15",
+            "title": "Henry Danger"
+        }
+    ],
+    "Rai 5": [
+        {
+            "time": "18:44",
+            "title": "Rai5 Classic Ep 55"
+        },
+        {
+            "time": "18:56",
+            "title": "TGR Bell - Italia"
+        },
+        {
+            "time": "19:26",
+            "title": "RaiNews"
+        },
+        {
+            "time": "19:29",
+            "title": "Art Night - Puntata 4"
+        },
+        {
+            "time": "19:33",
+            "title": "Sui binari dell'Antico Egitto St 1  Ep 3  - Luxor"
+        },
+        {
+            "time": "20:21",
+            "title": "Overland"
+        },
+        {
+            "time": "21:14",
+            "title": "Figlia mia"
+        },
+        {
+            "time": "22:49",
+            "title": "Il potere delle idee St 2025  Ep 2  - Camilla Lackberg"
+        }
+    ],
+    "Rai Storia": [
+        {
+            "time": "18:25",
+            "title": "Ritorno al presente - Il ponte della Musica"
+        },
+        {
+            "time": "18:50",
+            "title": "RaiNews Rai News Giorno"
+        },
+        {
+            "time": "18:55",
+            "title": "La Guerra al tavolo della pace - La conferenza di Teheran"
+        },
+        {
+            "time": "20:10",
+            "title": "Il giorno e la storia - 20 maggio 2025"
+        },
+        {
+            "time": "20:30",
+            "title": "Passato e Presente"
+        },
+        {
+            "time": "21:10",
+            "title": "Inferno nei mari - L'ira di Hitler"
+        },
+        {
+            "time": "22:00",
+            "title": "14-18 Grande Guerra 100 anni dopo"
+        },
+        {
+            "time": "22:50",
+            "title": "Cortina nella Grande Guerra Ep 1  - Montagne amate, montagne armate"
+        }
+    ],
+    "Rai Scuola": [
+        {
+            "time": "18:00",
+            "title": "Oggi Ã¨"
+        },
+        {
+            "time": "18:30",
+            "title": "Wild Italy"
+        },
+        {
+            "time": "19:15",
+            "title": "Maremma"
+        },
+        {
+            "time": "20:00",
+            "title": "La scienza segreta dei liquami"
+        },
+        {
+            "time": "21:00",
+            "title": "Racconti di Scienza"
+        },
+        {
+            "time": "22:00",
+            "title": "Doc Divulgativi"
+        },
+        {
+            "time": "22:45",
+            "title": "TGR Leonardo"
+        },
+        {
+            "time": "23:00",
+            "title": "Le grandi sfide alla natura"
+        }
+    ],
+    "Motor Trend Italia": [
+        {
+            "time": "18:45",
+            "title": "Reperti d'assalto - Stagione 5 Episodio 2 - Completamente scomposto"
+        },
+        {
+            "time": "20:30",
+            "title": "Reperti d'assalto - Stagione 5 Episodio 3"
+        },
+        {
+            "time": "22:15",
+            "title": "Ant Anstead: missione recupero - 1^TV - Stagione 1 Episodio 4 - Lotus Elan"
+        },
+        {
+            "time": "23:10",
+            "title": "Ant Anstead: missione recupero - Stagione 1 Episodio 3 - Jaguar XJS"
+        },
+        {
+            "time": "00:05",
+            "title": "Affari a quattro ruote - Stagione 14 Episodio 5 - Plymouth Barracuda"
+        },
+        {
+            "time": "01:00",
+            "title": "Affari a quattro ruote - Stagione 14 Episodio 6 - Ford Ranchero"
+        },
+        {
+            "time": "01:50",
+            "title": "I maghi del garage - Stagione 5 Episodio 1 - Fiat Dino"
+        },
+        {
+            "time": "02:40",
+            "title": "I maghi del garage - Stagione 5 Episodio 2"
+        }
+    ],
+    "DMAX": [
+        {
+            "time": "18:30",
+            "title": "Vado a vivere nel bosco - Stagione 2 Episodio 9 - Wisconsin"
+        },
+        {
+            "time": "19:30",
+            "title": "Vado a vivere nel bosco - Stagione 5 Episodio 3 - S.O.S."
+        },
+        {
+            "time": "21:25",
+            "title": "Questo strano mondo con Marco Berry - Stagione 2 Episodio 5 - Don't Look Up"
+        },
+        {
+            "time": "22:20",
+            "title": "Questo strano mondo con Marco Berry - Stagione 2 Episodio 6 - Gelatina"
+        },
+        {
+            "time": "23:15",
+            "title": "WWE Smackdown - 1^TV"
+        },
+        {
+            "time": "01:15",
+            "title": "KO! Botte da strada - Stagione 1 Episodio 1"
+        },
+        {
+            "time": "02:05",
+            "title": "Quei cattivi vicini - Stagione 2 Episodio 9"
+        },
+        {
+            "time": "03:10",
+            "title": "Colpo di fulmini - Stagione 8 Episodio 2"
+        }
+    ],
+    "Focus TV": [
+        {
+            "time": "18:31",
+            "title": "STRANGE EVIDENCE - LA MALEDIZIONE DEL TESORO MAYA"
+        },
+        {
+            "time": "19:32",
+            "title": "STRANGE EVIDENCE - IL BIGFOOT"
+        },
+        {
+            "time": "20:28",
+            "title": "FUORI LE PROVE! - INDAGINI AI CONFINI DELLA REALTA' - FUORI LE PROVE! - INDAGINI AI CONFINI DELLA REALTA' II, 3"
+        },
+        {
+            "time": "20:59",
+            "title": "FUORI LE PROVE! - INDAGINI AI CONFINI DELLA REALTA'"
+        },
+        {
+            "time": "21:25",
+            "title": "PRIMO INDIZIATO: LA TERRA! - GLI ULTIMI MAMMUT"
+        },
+        {
+            "time": "22:13",
+            "title": "PRIMO INDIZIATO: LA TERRA! - L'ESODO - MIRACOLO O SCIENZA?"
+        },
+        {
+            "time": "23:09",
+            "title": "INGEGNERIA DEGLI EPIC FAIL"
+        },
+        {
+            "time": "00:15",
+            "title": "INGEGNERIA DEGLI EPIC FAIL - INGEGNERIA DEGLI EPIC FAIL II, 10"
+        }
+    ],
+    "RealTime": [
+        {
+            "time": "19:25",
+            "title": "Casa a prima vista - Stagione 6 Episodio 10"
+        },
+        {
+            "time": "20:35",
+            "title": "Casa a prima vista - Stagione 6 Episodio 12 - Prima TV"
+        },
+        {
+            "time": "21:30",
+            "title": "Primo appuntamento crociera - Stagione 1 Episodio 5"
+        },
+        {
+            "time": "23:05",
+            "title": "Dr. Pimple Popper: la dottoressa schiacciabrufoli - Stagione 3 Episodio 19 - Naso gigantesco"
+        },
+        {
+            "time": "00:00",
+            "title": "Dr. Pimple Popper: la dottoressa schiacciabrufoli - Stagione 3 Episodio 20 - Santa Claus"
+        },
+        {
+            "time": "00:55",
+            "title": "Dr. Pimple Popper: la dottoressa schiacciabrufoli - Stagione 2 Episodio 1 - Protuberanze"
+        },
+        {
+            "time": "01:45",
+            "title": "Dr. Pimple Popper: la dottoressa schiacciabrufoli - Stagione 2 Episodio 2 - Bolle misteriose"
+        },
+        {
+            "time": "02:40",
+            "title": "Dr. Pimple Popper: la dottoressa schiacciabrufoli - Stagione 2 Episodio 3 - La protuberanza"
+        }
+    ],
+    "Discovery Channel": [
+        {
+            "time": "18:10",
+            "title": "Deadliest Catch: Norvegia - Stagione 1 Episodio 4 - Sangue norvegese"
+        },
+        {
+            "time": "19:05",
+            "title": "Metal Detective - Stagione 4 Episodio 2 - Claustrofobia"
+        },
+        {
+            "time": "20:00",
+            "title": "Metal Detective - Stagione 4 Episodio 3 - Deja vu"
+        },
+        {
+            "time": "21:00",
+            "title": "Chi cerca trova - Stagione 18 Episodio 8 - Sopravvissuti"
+        },
+        {
+            "time": "21:55",
+            "title": "Chi cerca trova - Stagione 19 Episodio 4 - Sportello unico - Prima TV"
+        },
+        {
+            "time": "22:45",
+            "title": "Chi cerca trova - Stagione 19 Episodio 3 - Collezioni"
+        },
+        {
+            "time": "23:40",
+            "title": "Ce l'avevo quasi fatta - Stagione 1 Episodio 3 - Omicidi sbagliati"
+        },
+        {
+            "time": "00:35",
+            "title": "Ce l'avevo quasi fatta - Stagione 1 Episodio 4 - Principale sospettato"
+        }
+    ],
+    "Sky Uno": [
+        {
+            "time": "18:55",
+            "title": "Gialappa - Show - Stagione 5 Episodio 7"
+        },
+        {
+            "time": "21:15",
+            "title": "Cucine da incubo - Stagione 11 Episodio 7"
+        },
+        {
+            "time": "22:30",
+            "title": "Cucine da incubo - Stagione 11 Episodio 6"
+        },
+        {
+            "time": "23:40",
+            "title": "Cucine da incubo - Stagione 11 Episodio 7"
+        },
+        {
+            "time": "00:50",
+            "title": "Bruno Barbieri 4 Hotel - Stagione 3 Episodio 2 - Marche"
+        },
+        {
+            "time": "02:00",
+            "title": "Quattro matrimoni - Stagione 4 Episodio 7"
+        },
+        {
+            "time": "02:50",
+            "title": "Quattro matrimoni - Stagione 4 Episodio 8"
+        },
+        {
+            "time": "03:40",
+            "title": "Home Restaurant - Stagione 2 Episodio 16"
+        },
+        {
+            "time": "18:10",
+            "title": "Quattro matrimoni Ep. 9"
+        },
+        {
+            "time": "19:10",
+            "title": "Italia's Got Talent Audizioni"
+        },
+        {
+            "time": "20:15",
+            "title": "Cuochi d'Italia Ep. 4"
+        },
+        {
+            "time": "22:25",
+            "title": "Pechino Express - La rotta dei sultani Ep. 6"
+        },
+        {
+            "time": "00:40",
+            "title": "Bruno Barbieri - 4 Hotel Firenze"
+        },
+        {
+            "time": "01:50",
+            "title": "Bruno Barbieri - 4 Hotel Langhe"
+        },
+        {
+            "time": "03:00",
+            "title": "Quattro matrimoni Ep. 8"
+        }
+    ],
+    "Sky Cinema 1": [
+        {
+            "time": "19:30",
+            "title": "Thelma"
+        },
+        {
+            "time": "21:15",
+            "title": "The Equalizer 3 Senza tregua"
+        },
+        {
+            "time": "23:05",
+            "title": "A Mistake"
+        },
+        {
+            "time": "00:50",
+            "title": "Cattivissimo me 4"
+        },
+        {
+            "time": "02:25",
+            "title": "Una famiglia mostruosa"
+        },
+        {
+            "time": "04:00",
+            "title": "Finche' notte non ci separi"
+        },
+        {
+            "time": "05:25",
+            "title": "Appuntamento con l'amore"
+        },
+        {
+            "time": "19:20",
+            "title": "Old"
+        },
+        {
+            "time": "23:15",
+            "title": "Notre-Dame in fiamme"
+        },
+        {
+            "time": "01:15",
+            "title": "Zona 414"
+        },
+        {
+            "time": "03:00",
+            "title": "100X100Cinema"
+        },
+        {
+            "time": "03:20",
+            "title": "2012"
+        }
+    ],
+    "SKY Cinema Family": [
+        {
+            "time": "19:15",
+            "title": "Dragon Trainer 2"
+        },
+        {
+            "time": "21:00",
+            "title": "Dolcissime"
+        },
+        {
+            "time": "22:30",
+            "title": "Dolittle"
+        },
+        {
+            "time": "00:10",
+            "title": "Max Steel"
+        },
+        {
+            "time": "01:40",
+            "title": "Questo o quello Robert De Niro &... Episodio 243 - Questo O Quello - Robert De Niro & Al Pacino"
+        },
+        {
+            "time": "01:50",
+            "title": "Angry Birds Il film"
+        },
+        {
+            "time": "03:25",
+            "title": "Latte e la pietra magica"
+        },
+        {
+            "time": "04:45",
+            "title": "Cicogne in missione"
+        },
+        {
+            "time": "19:25",
+            "title": "Peter Rabbit 2 - Un birbante in fuga"
+        },
+        {
+            "time": "22:25",
+            "title": "La musica nel cuore - August Rush"
+        },
+        {
+            "time": "00:20",
+            "title": "Il richiamo della foresta"
+        },
+        {
+            "time": "03:30",
+            "title": "Paddington 2"
+        },
+        {
+            "time": "05:15",
+            "title": "Elfkins - Missione Best Bakery"
+        }
+    ],
+    "Sky Cinema Romance": [
+        {
+            "time": "21:00",
+            "title": "Una lunga domenica di passioni"
+        },
+        {
+            "time": "23:15",
+            "title": "Little Italy Pizza, amore e fantasia"
+        },
+        {
+            "time": "01:00",
+            "title": "Diamanti Intervista a Ozpetek Speciale"
+        },
+        {
+            "time": "01:20",
+            "title": "Ritratto della giovane in fiamme"
+        },
+        {
+            "time": "03:25",
+            "title": "Which Brings Me to You"
+        },
+        {
+            "time": "05:05",
+            "title": "Mamma Mia!"
+        },
+        {
+            "time": "19:20",
+            "title": "Resta con me"
+        },
+        {
+            "time": "23:50",
+            "title": "Questione di tempo"
+        },
+        {
+            "time": "02:00",
+            "title": "Scusa ma ti voglio sposare"
+        },
+        {
+            "time": "03:50",
+            "title": "To Rome with Love"
+        },
+        {
+            "time": "05:45",
+            "title": "Il velo dipinto"
+        }
+    ],
+    "Sky Cinema Collection": [
+        {
+            "time": "19:05",
+            "title": "Mission: Impossible 2"
+        },
+        {
+            "time": "21:15",
+            "title": "Oblivion"
+        },
+        {
+            "time": "23:25",
+            "title": "Barry Seal Una storia americana"
+        },
+        {
+            "time": "01:15",
+            "title": "Questo o quello De Niro & Al Pacino Episodio 243 - De Niro & Al Pacino"
+        },
+        {
+            "time": "01:30",
+            "title": "Eyes Wide Shut"
+        },
+        {
+            "time": "04:05",
+            "title": "Jack Reacher La prova decisiva"
+        },
+        {
+            "time": "18:05",
+            "title": "Police"
+        },
+        {
+            "time": "19:50",
+            "title": "La prima vacanza non si scorda mai"
+        },
+        {
+            "time": "21:45",
+            "title": "Notre-Dame in fiamme"
+        },
+        {
+            "time": "23:45",
+            "title": "Un sapore di ruggine e ossa"
+        },
+        {
+            "time": "01:50",
+            "title": "Profumo - Storia di un assassino"
+        },
+        {
+            "time": "04:20",
+            "title": "Qualcosa di troppo"
+        }
+    ],
+    "Sky Cinema Action": [
+        {
+            "time": "19:10",
+            "title": "300 L'alba di un impero"
+        },
+        {
+            "time": "21:00",
+            "title": "Wanted Scegli il tuo destino"
+        },
+        {
+            "time": "22:50",
+            "title": "Transformers 4 L'era dell'estinzione"
+        },
+        {
+            "time": "01:40",
+            "title": "Star Trek II L'ira di Khan"
+        },
+        {
+            "time": "03:30",
+            "title": "Men in Black II"
+        },
+        {
+            "time": "05:00",
+            "title": "Three Kings"
+        },
+        {
+            "time": "18:25",
+            "title": "Transformers - La vendetta del caduto"
+        },
+        {
+            "time": "23:50",
+            "title": "La guerra dei mondi"
+        },
+        {
+            "time": "01:50",
+            "title": "Robin Hood principe dei ladri"
+        },
+        {
+            "time": "04:15",
+            "title": "Squadra 49"
+        }
+    ],
+    "SKY TG24": [
+        {
+            "time": "18:00",
+            "title": "TG24 mezz'ora - Sport - Meteo (live)"
+        },
+        {
+            "time": "18:30",
+            "title": "Sky TG24 Economia (live)"
+        },
+        {
+            "time": "19:00",
+            "title": "Il TG delle Diciannove - Sport - Meteo (live)"
+        },
+        {
+            "time": "20:00",
+            "title": "TG24 mezz'ora - Sport - Meteo (live)"
+        },
+        {
+            "time": "20:30",
+            "title": "TG24 mezz'ora - Sport - Meteo (live)"
+        },
+        {
+            "time": "21:00",
+            "title": "Sky TG24 in 10 minuti (live)"
+        },
+        {
+            "time": "21:10",
+            "title": "Documentario"
+        },
+        {
+            "time": "22:00",
+            "title": "Documentario"
+        },
+        {
+            "time": "19:30",
+            "title": "TG24 MONDO"
+        },
+        {
+            "time": "20:20",
+            "title": "TRIBU'"
+        },
+        {
+            "time": "21:30",
+            "title": "TG24 MEZZ'ORA"
+        }
+    ],
+    "Fox": [
+        {
+            "time": "18:05",
+            "title": "I Griffin Giochi di ruolo"
+        },
+        {
+            "time": "18:30",
+            "title": "I Simpson La pesca di Ned"
+        },
+        {
+            "time": "18:55",
+            "title": "I Simpson Homerland"
+        },
+        {
+            "time": "19:20",
+            "title": "I Simpson La paura fa novanta XXIV"
+        },
+        {
+            "time": "19:45",
+            "title": "I Simpson Homerazzi"
+        },
+        {
+            "time": "20:10",
+            "title": "I Simpson Marge giocatrice"
+        },
+        {
+            "time": "20:35",
+            "title": "I Simpson Un out-out per Bart"
+        },
+        {
+            "time": "21:00",
+            "title": "Modern Family I nuovi arrivati"
+        }
+    ]
+}

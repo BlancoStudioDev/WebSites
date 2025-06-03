@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=10">
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Stasera In TV, la Tua Guida TV semplice e veloce con approfondimenti sui programmi televisivi, schede dei film e trailers">
+    <meta name="keywords" content="stasera in tv,stasera,stasera rai, rai 4,stasera su, italia uno, mediaset, sky cielo, programmi tv, guida programmi tv, guida tv, film tv, guida, programmi, tv, televisione,oggi in tv,adesso in tv, blancostudio, blancostudio.dev, blanco, studio, programmi">
+    <title>Stasera in TV - Guida Televisiva Moderna | Blancostudio</title>
+    <meta property="og:title" content="Stasera in TV - Guida Televisiva Moderna | Blancostudio">
+    <meta property="og:description" content="Stasera In TV, la Tua Guida TV semplice e veloce con approfondimenti sui programmi televisivi, schede dei film e trailers">
+    <meta property="og:image" content="https://blancostudio.dev/staseraintv/favicon.jpg">
+    <meta property="og:url" content="https://blancostudio.dev/">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a href="https://blancostudio.dev" class="logo">
+            <i class="fas fa-tv"></i>
+            Blancostudio TV
+        </a>
+        <div class="current-time" id="current-time">
+            Loading...
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-and-filters">
+            <div class="search-bar">
+                <input type="text" class="search-input" id="search-input" placeholder="Cerca programmi...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <div class="filter-grid">
+                <select id="channel-filter" class="filter-select">
+                    <option value="all">Tutti i canali</option>
+                    <!-- Channel options will be added dynamically -->
+                </select>
+                <select id="time-filter" class="filter-select">
+                    <option value="all">Tutti gli orari</option>
+                    <option value="now">In onda adesso</option>
+                    <option value="next">Prossimamente</option>
+                    <option value="prime">Prime Time (20:00 - 23:00)</option>
+                    <option value="morning">Mattina (06:00 - 12:00)</option>
+                    <option value="afternoon">Pomeriggio (12:00 - 18:00)</option>
+                    <option value="evening">Sera (18:00 - 00:00)</option>
+                    <option value="night">Notte (00:00 - 06:00)</option>
+                </select>
+            </div>
+        </div>
+        <div class="control-panel">
+            <div class="info-group">
+                <div class="info-label">Ultimo aggiornamento</div>
+                <div class="info-value" id="last-updated">Mai</div>
+            </div>
+        </div>
+
+        <div id="loader-container" class="loader-container">
+            <div class="loader"></div>
+            <div class="loader-text">Caricamento programmazione TV...</div>
+        </div>
+
+        <div id="error-message" class="error-message" style="display: none;">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Impossibile caricare i dati. Verifica che all_tv_schedules.json esista nella directory corretta.</span>
+        </div>
+
+        <div id="channels-grid" class="channels-grid" style="display: none;">
+            <!-- Channel cards will be inserted here -->
+        </div>
+
+        <div id="empty-results" class="empty-results" style="display: none;">
+            <i class="fas fa-search"></i>
+            <h3>Nessun programma trovato</h3>
+            <p>Prova a modificare i filtri o i criteri di ricerca</p>
+        </div>
+    </div>
+
+    <footer style="background-color:#222; color:#eee; padding:20px 0; text-align:center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <p style="margin:0; font-size:14px;">
+    © 2025 
+    <a href="https://blancostudio.dev" class="logo" style="color:#3a86ff; text-decoration:none; font-weight:bold; display:inline-flex; align-items:center; gap:8px;">
+      <i class="fas fa-tv" style="color:#3a86ff; font-size:18px;"></i>
+      Blancostudio TV
+    </a> 
+    | Dati forniti da <a href="https://staseraintv.com" target="_blank" rel="noopener" style="color:#3a86ff; text-decoration:none;">staseraintv.com</a>
+  </p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Stasera in TV - Guida Televisiva Moderna | Blancostudio",
+  "url": "https://blancostudio.dev",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://blancostudio.dev/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+</html>
